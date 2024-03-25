@@ -34,6 +34,9 @@
     background-color: #1a61cc;
 }
 
+.bg-color-contact{
+    background-color: #fff;
+}
 /* Special Paddings/Margins/Text */
 
 h1,h2,h3,h4{
@@ -326,4 +329,37 @@ footer{
     border-radius: 12px;
     content: '';
     background-color: #fafafa;
+}
+
+/* Contact Form */
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    max-width: 70%;
+    padding-top:10px ;
+    margin:0 auto;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* Media Queries */
+
+@media(min-width: 992px){
+    .center-form{
+        max-width: 50%;
+        min-height: 240px;
+        padding-top:30px ;
+        margin:0 auto;
+    }
 }
